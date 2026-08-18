@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registro | Forma parte de Conquerblocks academy</title>
+    <meta name="description" content="Unete a la academia ConquerBlocks y conquista el mundo de la programacion con nuestros cursos dedicados.">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
@@ -23,7 +24,61 @@
     </header>
     <hr/>
     <main>
-        
+        <!-- Contenido Principal del registro-->
+        <section>
+            <!-- Formulario de registro de usuario -->
+            <h1>Formulario de Registro</h1>
+            <form action="" method="get">
+                <fieldset>
+                    <legend>Informacion Personal</legend>
+                    <br>
+                    <label for="nom">Nombre:</label>
+                    <input type="text" id="nom" name="nombre" required>
+                    <br><br>
+                    <label for="ape">Apellido:</label>
+                    <input type="text" id="ape" name="apellido" required>
+                    <br><br>
+                    <label for="nacimiento">Fecha de nacimiento:</label>
+                    <input type="date" id="nacimiento" name="fecha_nacimiento" required>
+                    <br><br>
+                    <label for="contra">Ingrese una contraseña:</label>
+                    <input type="password" name="password2" id="contra" required>
+                    <br><br>
+                    <label for="contra2">Repita la contraseña:</label>
+                    <input type="password" name="password2" id="contra2" required>
+                    <br><br>
+                </fieldset>
+                <fieldset>
+                    <br>
+                    <legend>Datos de contacto</legend>
+                    <label for="mail">Correo electrónico:</label>
+                    <input type="email" id="mail"  name="email" required>
+                    <br><br>
+                    <label for="casa">Dirección:</label>
+                    <input type="text" id="casa" name="direccion" required>
+                    <br><br>
+                    <label for="tel">Teléfono:</label>
+                    <input type="tel" id="tel" name="telefono" required>
+                    <br><br>
+                </fieldset>
+                <fieldset>
+                    <legend>Informacion Adicional</legend>
+                    <br>
+                    <label for="web">Página web:</label>
+                    <input type="url" id="web" name="pagina_web">
+                    <br><br>
+                    <label for="pic">Foto:</label>
+                    <input type="file" id="pic" name="foto">
+                    <br><br>
+                    <label for="bio">Biografía:</label>
+                    <textarea id="bio" name="biografia"></textarea>
+                    <br><br>
+                </fieldset>
+                <br>
+                <input type="submit" value="Registrarse">
+            </form>
+        </section>
+        <br><br>
     </main>
     <hr>
     <footer>

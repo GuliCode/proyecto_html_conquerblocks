@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -32,62 +32,86 @@
             <br>
             <h2>Listado de cursos</h2>
             <p>5 cursos disponibles</p>
-            <article id="curso_HTML">
-                <h4>Curso de HTML</h4>
-                <p>Aprende las bases de la web desde cero</p>
-                <picture>
-                    <source media="(min-width: 1024px)" srcset="./img/cursos/html5_icono_grande.jpg" width="1024">
-                    <!-- Imagen para pantallas medianas (ej. Tabletas) -->
-                    <source media="(min-width: 750px)" srcset="./img/cursos/Html5_icono.png" width="750">
-                    <!-- Imagen por defecto y de respaldo (ej. Celulares) -->
-                    <img src="./img/cursos/html5.png" alt="Logo de HTML5" width="150">
-                </picture>
-            </article>
-            <article id="curso_CSS">
-                <h4>Curso de CSS</h4>
-                <p>Dale un estilo con CSS a tus paginas web</p>
-                <picture>
-                    <source media="(min-width: 1024px)" srcset="./img/cursos/CSS3_icono_grande.jpg" width="1024">
-                    <source media="(min-width: 750px)" srcset="./img/cursos/CSS3_icono.png" width="750">
-                    <img src="./img/cursos/CSS3.png" alt="Logo de CSS3" width="150">
-                </picture>
-            </article>
-            <article id="curso_JS">
-                <h4>Curso de JavaScript</h4>
-                <p>Aprende a programar en JavaScript y crea aplicaciones interactivas</p>
-                <picture>
-                    <source media="(min-width: 1024px)" srcset="./img/cursos/JS_icono_grande.jpg" width="1024">
-                    <source media="(min-width: 750px)" srcset="./img/cursos/JS_icono.png" width="750">
-                    <img src="./img/cursos/JS.png" alt="Logo de JavaScript" width="150">
-                </picture>
-            </article>
-            <article id="curso_ReactJS">
-                <h4>Curso de ReactJS</h4>
-                <p>Con el framework ReactJS haz aplicaciones web modernas</p>
-                <picture>
-                    <source media="(min-width: 1024px)" srcset="./img/cursos/react_icono_grande.jpg" width="1024">
-                    <source media="(min-width: 750px)" srcset="./img/cursos/React_icono.png" width="750">
-                    <img src="./img/cursos/react.png" alt="Logo de ReactJS" width="150">
-                </picture>
-            </article>
-            <article id="curso_Python">
-                <h4>Curso de Python</h4>
-                <p>Aprende a programar en Python y descubre su potencial</p>
-                <picture>
-                    <source media="(min-width: 1024px)" srcset="./img/cursos/python_icono_grande.jpg" width="1024">
-                    <source media="(min-width: 750px)" srcset="./img/cursos/python_icono.jpg" width="750">
-                    <img src="./img/cursos/python.png" alt="Logo de Python" width="150">
-                </picture>
-            </article>
-            <article id="curso_SQL">
-                <h4>Curso de SQL</h4>
-                <p>Aprende a gestionar bases de datos con SQL</p>
-                <picture>
-                    <source media="(min-width: 1024px)" srcset="./img/cursos/sql_icono_grande.jpg" width="1024">
-                    <source media="(min-width: 750px)" srcset="./img/cursos/sql_icono.png" width="750">
-                    <img src="./img/cursos/sql.png" alt="Logo de SQL" width="150">
-                </picture>
-            </article>
+            <section id="frontend_inicial">
+                <h3>Desarrollo Web</h3>
+                <article id="curso_HTML">
+                    <h4>Curso de HTML</h4>
+                    <p>Aprende las bases de la web desde cero</p>
+                    <a href="./cursos_paginas/curso_html.html">
+                        <picture>
+                            <source media="(min-width: 1024px)" srcset="./img/cursos/html5_icono_grande.jpg" width="1024">
+                            <!-- Imagen para pantallas medianas (ej. Tabletas) -->
+                            <source media="(min-width: 750px)" srcset="./img/cursos/Html5_icono.png" width="750">
+                            <!-- Imagen por defecto y de respaldo (ej. Celulares) -->
+                            <img src="./img/cursos/html5.png" alt="Logo de HTML5" width="150">
+                        </picture>
+                    </a>
+                </article>
+                <article id="curso_CSS">
+                    <h4>Curso de CSS</h4>
+                    <p>Dale un estilo con CSS a tus paginas web</p>
+                    <a href="./cursos_paginas/curso_css.html">
+                        <picture>
+                            <source media="(min-width: 1024px)" srcset="./img/cursos/CSS3_icono_grande.jpg" width="1024">
+                            <source media="(min-width: 750px)" srcset="./img/cursos/CSS3_icono.png" width="750">
+                            <img src="./img/cursos/CSS3.png" alt="Logo de CSS3" width="150">
+                        </picture>
+                    </a>
+                </article>
+                <article id="curso_JS">
+                    <h4>Curso de JavaScript</h4>
+                    <p>Aprende a programar en JavaScript y crea aplicaciones interactivas</p>
+                    <picture>
+                        <source media="(min-width: 1024px)" srcset="./img/cursos/JS_icono_grande.jpg" width="1024">
+                        <source media="(min-width: 750px)" srcset="./img/cursos/JS_icono.png" width="750">
+                        <img src="./img/cursos/JS.png" alt="Logo de JavaScript" width="150">
+                    </picture>
+                </article>
+            </section>
+            <hr>
+            <section id="backend">
+                <h3>Desarrollo Backend</h3>  
+                <article id="curso_Python">
+                    <h4>Curso de Python</h4>
+                    <p>Aprende a programar en Python y descubre su potencial</p>
+                    <picture>
+                        <source media="(min-width: 1024px)" srcset="./img/cursos/python_icono_grande.jpg" width="1024">
+                        <source media="(min-width: 750px)" srcset="./img/cursos/python_icono.jpg" width="750">
+                        <img src="./img/cursos/python.png" alt="Logo de Python" width="150">
+                    </picture>
+                </article>
+                <article id="curso_SQL">
+                    <h4>Curso de SQL</h4>
+                    <p>Aprende a gestionar bases de datos con SQL</p>
+                    <picture>
+                        <source media="(min-width: 1024px)" srcset="./img/cursos/sql_icono_grande.jpg" width="1024">
+                        <source media="(min-width: 750px)" srcset="./img/cursos/sql_icono.png" width="750">
+                        <img src="./img/cursos/sql.png" alt="Logo de SQL" width="150">
+                    </picture>
+                </article>
+            </section>
+            <hr>
+            <section id="frontend_avanzado">
+                <h3>Frontend Avanzado</h3>
+                <article id="curso_ReactJS">
+                    <h4>Curso de ReactJS</h4>
+                    <p>Con React moderniza tu desarrollo web con componentes reutilizables</p>
+                    <picture>
+                        <source media="(min-width: 1024px)" srcset="./img/cursos/react_icono_grande.jpg" width="1024">
+                        <source media="(min-width: 750px)" srcset="./img/cursos/React_icono.png" width="750">
+                        <img src="./img/cursos/react.png" alt="Logo de ReactJS" width="150">
+                    </picture>
+                </article>
+                <article id="curso_Angular">
+                    <h4>Curso de Angular</h4>
+                    <p>Con el framework Angular optimiza tu desarrollo web</p>
+                    <picture>
+                        <source media="(min-width: 1024px)" srcset="./img/cursos/angular_icono_grande.jpg" width="1024">
+                        <source media="(min-width: 750px)" srcset="./img/cursos/Angular_icono.png" width="750">
+                        <img src="./img/cursos/angular.png" alt="Logo de Angular" width="150">
+                    </picture>
+                </article>
+            </section>
         </section>
     </main>
     <hr>
